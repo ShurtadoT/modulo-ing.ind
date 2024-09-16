@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página de Información</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <!-- Primer contenedor: Logo alineado a la izquierda -->
+    <div class="container logo-container">
+        <img src="https://www.iue.edu.co/wp-content/uploads/2023/08/logo-iue-envigado.svg" alt="Logo" class="logo">
+    </div>
+
+    <!-- Segundo contenedor: Imagen de fondo con título -->
+    <div class="container header-container">
+        <h1 class="header-title">Ingeniería Industrial</h1>
+    </div>
+
+    <!-- Texto corto entre el header y la tarjeta -->
+    <p class="short-text">El Programa de Ingeniería Industrial de la Institución Universitaria de Envigado, fue creado mediante Acuerdo del Consejo Directivo 012 del 27 de abril de 2017.</p>
+
+     <!-- Contenedor tipo tarjeta -->
+     <div class="container card-container">
+        <div class="card">
+            <p class="card-text">El Programa Ingeniería Industrial se ofrece a nivel académico de Pregrado y nivel de formación profesional y otorga el título de Ingeniero Industrial.
+                El propósito de formación del programa es Formar profesionales competentes para diseñar sistemas integrados por personas, materiales, información, equipos y energía, teniendo en cuenta la capacidad organizacional y la realización de su objeto con responsabilidad social buscando la competitividad en los entornos productivos y de servicios
+                La pertinencia del programa de Ingeniería Industrial, en la modalidad presencial, adscrito a la Facultad de Ingeniería, se justifica a partir de un análisis contextualizado del área de conocimiento del programa que se presenta, en el estudio de pertinencia, en el cual se identifica que el programa pertenece al área de conocimiento Ingeniería, arquitectura, urbanismo y afines (Snies ICFES, 2023).
+            </p>
+        </div>
+     </div>
+
+       <!-- Segunda tarjeta con navegador de pestañas -->
+       <div class="container card-container">
+         <div class="card">
+            <div class="tab-header">
+                <button class="tab-link active" onclick="openTab(event, 'tab1')">Perfil de ingreso</button>
+                <button class="tab-link" onclick="openTab(event, 'tab2')">Requisitos para el ingreso</button>
+                <button class="tab-link" onclick="openTab(event, 'tab3')">Perfil del egresado </button>
+                <button class="tab-link" onclick="openTab(event, 'tab4')">Perfil ocupacional</button>
+            </div>
+            <div class="tab-content">
+                <div id="tab1" class="tab-info active-tab">El perfil estudiantil de la institución, según el PEI, busca formar estudiantes desde la inclusión, con responsabilidad y compromiso en su desarrollo integral. Se promueve que los estudiantes adquieran pensamiento analítico y crítico para lograr su realización personal y profesional. Se espera que comprendan, interpreten y evalúen textos académicos, resuelvan problemas matemáticos y entiendan fenómenos políticos, económicos y culturales, además de dominar una lengua extranjera según su nivel académico. Los estudiantes deben desarrollar habilidades cognitivas, investigativas, comunicativas y hacer uso responsable de las TIC. También se fomenta el trabajo en equipo, la planificación y la sensibilidad hacia la justicia, el bien común y las estructuras democráticas, con un fuerte sentido de responsabilidad social, ambiental, cultural y laboral.</div>
+                <div id="tab2" class="tab-info">
+                    <ul>
+                        <li>Poseer título de bachiller de acuerdo con las normas legales que rigen para la Educación Superior. </li>
+                        <li>Haber presentado el examen de Estado para el Ingreso a la Educación Superior. </li>
+                        <li>Adelantar inscripción y demás actividades establecidas en el cronograma académico. </li>
+                        <li>Resolver con solvencia los instrumentos de admisión institucional.</li>
+                        <li>Allegar la documentación requerida por la Institución y las pruebas de verificación que fueren solicitadas.</li>
+                    </ul>
+                </div>
+                <div id="tab3" class="tab-info">El perfil de egreso del Ingeniero Industrial de la Institución Universitaria de Envigado corresponde al título otorgado y al nivel de formación profesional. El ingeniero es competente para diseñar sistemas integrados que involucren personas, materiales, información, equipos y energía, con responsabilidad social y ambiental. Además, puede optimizar recursos, aplicar tecnologías emergentes y dirigir estratégicamente los recursos tecnológicos. Este perfil cumple con las demandas del sector productivo, donde se destacan áreas como sistemas productivos y operaciones (25%), gestión logística (11%), mejoramiento de procesos y calidad (11%), formación integral (19%), servicios y manufactura (15%), y análisis de proyectos, administración, gestión de operaciones y seguridad industrial (12% cada uno).
+                </div>
+                <div id="tab4" class="tab-info">El Ingeniero industrial de la Institución Universitaria de Envigado, se podrá desempeñar en el sector público o privado, en cargos directivos, gerenciales, o mandos medios en Instituciones y empresas de diversos sectores desarrollando funciones como gerente, director, coordinador, gestor, analista,  jefe, en las áreas de operaciones (planeación, logística, producción, compras, ingeniería, diseño de plantas), tecnología e innovación, talento humano, seguridad industrial, calidad, proyectos, transformación digital, entre otros.</div>
+                </div>
+            </div>
+        </div>
+
+        <div class="container card-container">
+            <div class="card">
+                <h2>Ocupaciones</h2>
+                <p class="card-text">
+                    La pertinencia del programa de Ingeniería Industrial se realizó analizando la demanda y la colocación a nivel Profesional y Directivo del Ingeniero Industrial para el Departamento de Antioquia, en dicho estudio las ocupaciones que se identificaron fueron las siguientes:
+                </p>
+                <ul>
+                    <li>Directores y Gerentes Generales de Producción de Bienes, Servicios Públicos, Transporte y Construcción </li>
+                    <li>Directores y gerentes generales de servicios y procesos de negocio </li>
+                    <li>Gerentes de Compras y Adquisiciones </li>
+                    <li>Gerentes Cadena de Suministro</li>
+                    <li>Gerentes de transporte y distribución</li>
+                    <li>Gerentes de operación de instalaciones físicas</li>
+                    <li>Gerentes de Producción Industrial</li>
+                    <li>Ingenieros Industriales y de Fabricación</li>
+                    <li>Diseñadores Industriales</li>
+                    <li>Directores de Planta de Procesamiento de Alimentos y Bebidas</li>
+                    <li>Profesionales en organización y administración de las empresas</li>
+                </ul>
+
+            </div>
+        </div>
+
+        <div class="container card-container">
+            <div class="card">
+                <h2>Atributos de la ingeniería Industrial</h2>
+                <p class="card-text">
+                    En el programa de Ingeniería Industrial de la IUE, el área de ingeniería aplicada se organiza en cinco componentes así:</p>
+                <ol>
+                    <li>Organización y entorno </li>
+                    <li>Gestión de los recursos </li>
+                    <li>Producción de bienes y servicios </li>
+                    <li>Gestión de la tecnología e innovación</li>
+                    <li>Productividad y empresarismo</li>
+                </ol>
+
+                <p> Esta distribución  permite visualizar y hacer trazabilidad a la formación del Ingeniero Industrial de la IUE, dado que cada uno de los cinco componentes se enlazan para orientar al profesional hacia el emprendimiento productivo y empresarial, lo cual le permite: conocer las características propias de la organización y su contexto, determinar los recursos asociados a los procesos, optimizar los sistemas de producción de bienes y servicios, a partir de la apropiación tecnológica y la innovación, además de incorporar las herramientas para mejorar la productividad y modelar empresas.</p>
+
+            </div>
+        </div>
+
+        <div class="container card-container">
+            <div class="card">
+                <h2>Propósito de formación</h2>
+                <p class="card-text">El propósito de formación para el programa de Ingeniería Industrial en la Institución Universitaria de Envigado es “Formar profesionales competentes para diseñar sistemas integrados por personas, materiales, información, equipos y energía, teniendo en cuenta la capacidad organizacional y la realización de su objeto con responsabilidad social buscando la competitividad en los entornos productivos y de servicios”.
+                </p>
+            </div>
+         </div>
+
+         
+         <div class="container card-container">
+            <div class="card">
+                <h2>Resultados de aprendizaje</h2>
+                <ul>
+                    <li>Analiza el estado actual de las operaciones, sistemas de producción, logística, calidad y de innovación según las características del proceso o servicio y los objetivos empresariales. </li>
+                    <li>Estructura el modelo de optimización de los sistemas productivos de bienes y servicios siguiendo procedimientos técnicos y el tipo de problema a solucionar. </li>
+                    <li>Simula el modelo de optimización de los sistemas productivos de bienes y servicios apoyado en métodos, técnicas y análisis de mejora acorde con los resultados esperados. </li>
+                    <li>Evalúa los resultados de la optimización de los sistemas productivos de bienes y servicios conforme a los indicadores de gestión y las necesidades de la organización</li>
+                    <li>Escoge las tecnologías emergentes en los procesos de producción de bienes y servicios atendiendo a las necesidades y características de la organización.</li>
+                    <li>Simula el uso de las tecnologías emergentes en entornos industriales y de servicios considerando las necesidades de los clientes y las expectativas de realización empresarial, laboral, profesional, social y ambiental.</li>
+                    <li>Informa el resultado de la simulación de las tecnologías emergentes teniendo en cuenta criterios técnicos acordes a las necesidades de la organización. </li>
+                    <li>Identifica los principios básicos de la gestión estratégica de recursos tecnológicos en sistemas productivos de bienes y servicios conforme con las características de los procesos y las necesidades de la organización.</li>
+                    <li>Planea las estrategias de gestión de recursos tecnológicos en sistemas productivos de bienes y servicios considerando las necesidades y características de la organización. </li>
+                    <li>Recomienda planes estratégicos de integración de recursos tecnológicos en los sistemas productivos de bienes y servicios de acuerdo con las características de los procesos y necesidades de la organización.</li>
+                    <li>Verifica la integración de las tecnologías emergentes a los procesos de la cadena de valor en la generación de productos o servicios teniendo en cuenta criterios de competitividad, productividad y las necesidades de la organización.</li>
+                </ul>
+            </div>
+         </div>
+
+         <div class="container card-container">
+            <div class="card">
+                <h2>Formación en investigación e innovación</h2>
+                <p class="card-text">El programa de Ingeniería Industrial impulsa la línea de investigación en productividad y competitividad, enfocándose en proyectos para mejorar la eficiencia, optimizar recursos y aumentar la competitividad en la industria local. Para lograrlo, se aplican herramientas como estudios de métodos, medición del trabajo, simulación discreta, modelado de sistemas productivos, y filosofías como Lean, Six Sigma, TPM, TOC, BPM, además de gamificación. También se integran temas de producción avanzada y automatización industrial. Un desafío clave es consolidar los datos generados mediante herramientas de Business Intelligence, especialmente utilizando Microsoft Power BI para el desarrollo de dashboards y reportes.
+                </p>
+            </div>
+         </div>
+
+         <footer class="footer">
+            <img src="https://www.iue.edu.co/wp-content/uploads/2022/05/IUE-LOGO-BLANCO.svg" alt="Imagen Footer" class="footer-img">
+            <p class="footer-text">Modulo de la carrera de ingeniería industrial.</p>
+        </footer>
+
+    <script src="script.js"></script>
+
+
+</body>
+</html>
